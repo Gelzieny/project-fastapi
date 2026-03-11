@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.responses import RedirectResponse, HTMLResponse
 
-from routes.user_route import user_routes
+from src.routes.user_route import user_routes
 
 app = FastAPI(
   title="Api Portal IA",
