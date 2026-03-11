@@ -8,3 +8,7 @@ psycopg2-binary
 pydantic-settings
 python-dotenv
 pylint
+SQLAlchemy==2.0.45
+aiosqlite==0.22.1
+pytest
+pytest-asyncio
